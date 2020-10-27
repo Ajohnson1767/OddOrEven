@@ -18,7 +18,7 @@ namespace OddOrEven
 
 
             //Determines if a number is odd
-            if (num % 2 == 0)
+            if (num % 2 != 0)
             {
 
                 Console.WriteLine($"{num} is even");
