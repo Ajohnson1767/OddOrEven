@@ -21,13 +21,13 @@ namespace OddOrEven
             if (num % 2 == 0)
             {
 
-                Console.WriteLine("Number is even");
+                Console.WriteLine($"{num} is even");
                 return false;
                 
             }
             else
             {
-                Console.WriteLine("Number is odd");
+                Console.WriteLine($"{num} is odd");
                 return true;
                 
             }
